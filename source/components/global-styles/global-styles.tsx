@@ -14,6 +14,7 @@ const GlobalStyles = () => {
       body {
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+        font-family: "Montserrat", sans-serif;
         color: ${theme.colors.primary};
         background: ${theme.colors.primary};
         #root {
