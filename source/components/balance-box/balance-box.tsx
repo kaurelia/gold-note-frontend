@@ -1,6 +1,11 @@
-import { BalanceWrapper, Box, CurrentBalance, Title } from "./price-box.styles";
+import {
+  BalanceWrapper,
+  Box,
+  CurrentBalance,
+  Title,
+} from "./balance-box.styles";
 
-const PriceBox = () => {
+const BalenceBox = () => {
   return (
     <Box>
       <BalanceWrapper>
@@ -11,4 +16,4 @@ const PriceBox = () => {
   );
 };
 
-export default PriceBox;
+export default BalenceBox;
