@@ -1,7 +1,10 @@
 import styled from "@emotion/styled";
+import { ButtonProperties, ButtonVariant } from "./button.types";
 
-export const ButtonWrapper = styled.div`
-  background: #010000;
+export const ButtonWrapper = styled.div<Pick<ButtonProperties, "variant">>`
+  background: ${({ variant }) => {
+    return variant === ButtonVariant.Light ? "#fff" : "#010000";
+  }};
   width: fit-content;
   display: flex;
   align-items: center;

@@ -7,7 +7,8 @@ const Home = () => {
   return (
     <Page name="home">
       <BalanceBox />
-      <Button icon={mdiPlus}>Add asset</Button>
+      <Button icon={mdiPlus}>Add gold</Button>
+      <Button>More</Button>
     </Page>
   );
 };
