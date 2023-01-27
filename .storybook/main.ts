@@ -7,6 +7,7 @@ module.exports = {
     "@storybook/addon-links",
     "@storybook/addon-interactions",
     "@storybook/addon-controls",
+    "@storybook/addon-docs",
   ],
   framework: "@storybook/react",
   core: {

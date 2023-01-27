@@ -1,14 +1,24 @@
 import Icon from "@mdi/react";
 import { ButtonWrapper } from "./button.styles";
-import { ButtonProperties, ButtonVariant } from "./button.types";
+import {
+  ButtonComponent,
+  ButtonProperties,
+  ButtonVariant,
+} from "./button.types";
 
-const Button = ({
+/**
+ * Generic button
+ * @type {ButtonComponent}
+ * @param {ButtonProperties} props properties of button
+ * @returns {JSX.Element} Rendered button
+ */
+const Button: ButtonComponent = ({
   children,
   icon,
   iconProperties,
   variant = ButtonVariant.Dark,
   ...rest
-}: ButtonProperties) => {
+}: ButtonProperties): JSX.Element => {
   return (
     <ButtonWrapper {...rest} variant={variant}>
       {icon && <Icon path={icon} size={1.1} color="#fff" {...iconProperties} />}
