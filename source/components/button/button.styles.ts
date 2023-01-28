@@ -28,7 +28,7 @@ export const ButtonWrapper = styled.div<Pick<ButtonProperties, "variant">>`
     &:last-child {
       margin-right: 0;
     }
-    &:first-child {
+    &:first-of-type {
       margin-left: 0;
     }
   }
