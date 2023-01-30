@@ -29,6 +29,10 @@ const config = (): Configuration => {
             from: join(process.cwd(), "public", "index.html"),
             to: join(process.cwd(), "dist"),
           },
+          {
+            from: join(process.cwd(), "public", "images"),
+            to: join(process.cwd(), "dist", "images"),
+          },
         ],
       }),
       new ReactRefreshWebpackPlugin(),
