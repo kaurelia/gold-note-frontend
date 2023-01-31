@@ -40,14 +40,14 @@ const config = (): Configuration => {
     mode: "development",
     devServer: {
       host: "0.0.0.0",
+      liveReload: false,
+      hot: true,
       client: {
         overlay: false,
       },
       historyApiFallback: true,
       static: join(process.cwd(), "dist"),
-      hot: true,
       devMiddleware: {
-        writeToDisk: true,
         publicPath: "/",
       },
       watchFiles: [join(process.cwd(), "source")],

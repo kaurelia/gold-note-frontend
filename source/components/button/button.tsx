@@ -8,6 +8,7 @@ import {
 
 /**
  * Generic button
+ *
  * @type {ButtonComponent}
  * @param {ButtonProperties} props properties of button
  * @returns {JSX.Element} Rendered button

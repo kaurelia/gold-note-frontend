@@ -1,3 +1,4 @@
+import { FunctionComponent } from "react";
 import {
   CardWrapper,
   HeaderText,
@@ -10,7 +11,13 @@ import {
 } from "./card.styles";
 import { CardProperties } from "./card.types";
 
-const Card = ({ imagePath, name, group, amount, shopDate }: CardProperties) => {
+const Card: FunctionComponent<CardProperties> = ({
+  imagePath,
+  name,
+  group,
+  amount,
+  shopDate,
+}: CardProperties): JSX.Element => {
   return (
     <CardWrapper>
       <ImageTextWrapper>

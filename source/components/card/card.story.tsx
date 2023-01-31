@@ -4,7 +4,9 @@ import GlobalStyles from "../global-styles/global-styles";
 import Card from "./card";
 import { CardComponent, CardProperties } from "./card.types";
 
-const Template: ComponentStory<CardComponent> = (props: CardProperties) => {
+const Template: ComponentStory<CardComponent> = (
+  props: CardProperties,
+): JSX.Element => {
   return (
     <AppProvider>
       <GlobalStyles />
@@ -13,7 +15,7 @@ const Template: ComponentStory<CardComponent> = (props: CardProperties) => {
   );
 };
 
-export const CardExample = Template.bind({});
+export const CardExample: ComponentStory<CardComponent> = Template.bind({});
 CardExample.args = {
   imagePath: "/images/gold-bars.png",
   name: "Test name",

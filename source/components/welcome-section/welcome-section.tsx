@@ -1,13 +1,11 @@
 import { getHours } from "date-fns";
 import { inRange } from "lodash";
+import { FunctionComponent } from "react";
 import {
   AnimatedBox,
   AnimatedBoxHand,
   WelcomeSectionWrapper,
 } from "./welcome-section.styles";
-// type HourToComponentMapper = {
-
-// }
 
 const hourToComponentMapper = (hour: number) => {
   if (inRange(hour, 6, 9)) {
@@ -45,9 +43,9 @@ const hourToComponentMapper = (hour: number) => {
     };
   }
 };
-const WelcomeSection = () => {
-  const currentHour = getHours(new Date());
-  const CurrentEmoji = hourToComponentMapper(currentHour);
+const WelcomeSection: FunctionComponent = () => {
+  const currentHour: number = getHours(new Date());
+  const CurrentEmoji: FunctionComponent = hourToComponentMapper(currentHour);
   return (
     <WelcomeSectionWrapper>
       Hi! <CurrentEmoji />
