@@ -1,6 +1,15 @@
-import styled from "@emotion/styled";
+import { Theme } from "@emotion/react";
+import styled, { StyledComponent } from "@emotion/styled";
+import { DetailedHTMLProps, ElementType, ImgHTMLAttributes } from "react";
 
-export const Image = styled.img`
+export const Image: StyledComponent<
+  {
+    theme?: Theme;
+    as?: ElementType;
+  },
+  DetailedHTMLProps<ImgHTMLAttributes<HTMLImageElement>, HTMLImageElement>,
+  {}
+> = styled.img`
   width: 50px;
   height: 50px;
   padding: 5px;

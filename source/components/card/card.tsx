@@ -29,7 +29,6 @@ const Card: FunctionComponent<CardProperties> = ({
           <Subtitle>{group}</Subtitle>
         </TextWrapper>
       </ImageTextWrapper>
-
       <ValueWrapper>
         <HeaderText>{amount}</HeaderText>
         <Subtitle>{shopDate}</Subtitle>
