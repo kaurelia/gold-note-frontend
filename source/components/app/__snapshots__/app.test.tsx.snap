@@ -1,0 +1,303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test app component Check if loader component renders properly 1`] = `<div />`;
+
+exports[`Test app component Check if page component renders properly 1`] = `
+.emotion-0 {
+  color: #010000;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.emotion-1 {
+  display: inline-block;
+}
+
+.emotion-2 {
+  height: 100px;
+  width: 400px;
+  border-radius: 15px;
+  background-color: #eec0c6;
+  background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  justify-content: space-evenly;
+  margin-left: 30px;
+}
+
+.emotion-4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.emotion-6 {
+  background: #010000;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 15px;
+  overflow-wrap: anywhere;
+}
+
+.emotion-6>* {
+  margin: 0 5px;
+}
+
+.emotion-6>*:last-child {
+  margin-right: 0;
+}
+
+.emotion-6>*:first-of-type {
+  margin-left: 0;
+}
+
+.emotion-7 {
+  background: #fff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 15px;
+  overflow-wrap: anywhere;
+  color: #010000;
+  border: 2px solid #e0e0e0;
+}
+
+.emotion-7>* {
+  margin: 0 5px;
+}
+
+.emotion-7>*:last-child {
+  margin-right: 0;
+}
+
+.emotion-7>*:first-of-type {
+  margin-left: 0;
+}
+
+.emotion-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 25%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.emotion-9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-10 {
+  display: inline-block;
+  background: rgba(213, 214, 216, 0.22);
+  border-radius: 10px;
+}
+
+.emotion-11 {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.emotion-12 {
+  color: #010000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: 10px;
+  gap: 2px;
+}
+
+.emotion-13 {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.emotion-14 {
+  font-size: 0.8rem;
+  color: #b9b9b9;
+}
+
+.emotion-15 {
+  color: #010000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: 10px;
+  gap: 2px;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+}
+
+<div>
+  <div
+    data-testid="page-home"
+  >
+    <span
+      class="emotion-0"
+    >
+      Hi! 
+      <div
+        class="emotion-1"
+      >
+        🌚
+      </div>
+    </span>
+    <div
+      class="emotion-2"
+    >
+      <div
+        class="emotion-3"
+      >
+        <span
+          class="emotion-4"
+        >
+          Stan konta
+        </span>
+        <span
+          class="emotion-4"
+        >
+          34253$
+        </span>
+      </div>
+    </div>
+    <div
+      class="emotion-6"
+    >
+      <svg
+        role="presentation"
+        style="width: 1.6500000000000001rem; height: 1.6500000000000001rem;"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+          style="fill: #fff;"
+        />
+      </svg>
+      <span>
+        Add asset
+      </span>
+    </div>
+    <div
+      class="emotion-7"
+    >
+      <span>
+        More
+      </span>
+    </div>
+    <div
+      class="emotion-8"
+    >
+      <div
+        class="emotion-9"
+      >
+        <div
+          class="emotion-10"
+        >
+          <img
+            class="emotion-11"
+            src="/images/gold-bars.png"
+          />
+        </div>
+        <div
+          class="emotion-12"
+        >
+          <span
+            class="emotion-13"
+          >
+            My first asset
+          </span>
+          <span
+            class="emotion-14"
+          >
+            For rent
+          </span>
+        </div>
+      </div>
+      <div
+        class="emotion-15"
+      >
+        <span
+          class="emotion-13"
+        >
+          + $100
+        </span>
+        <span
+          class="emotion-14"
+        >
+          27.03.2023
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
