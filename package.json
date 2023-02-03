@@ -12,7 +12,9 @@
     "dev": "TS_NODE_PROJECT=tsconfig.node.json webpack serve",
     "storybook": "cross-env NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
     "test": "jest",
-    "lint": "eslint --fix -f unix \"./**/*.{js,jsx,ts,tsx,json}\" && prettier --write \"./**/*.{js,jsx,ts,tsx,json,yaml,yml}\""
+    "lint": "eslint --fix -f unix \"./**/*.{js,jsx,ts,tsx,json}\" && prettier --write \"./**/*.{js,jsx,ts,tsx,json,yaml,yml}\"",
+    "audit:snyk": "snyk code test && snyk test --dev",
+    "audit:fix": "yarn-audit-fix"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -83,6 +85,7 @@
     "prettier-plugin-organize-imports": "^3.2.2",
     "react-refresh": "^0.14.0",
     "serve": "^14.2.0",
+    "snyk": "^1.1096.0",
     "ts-jest": "^29.0.5",
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.1.2",
@@ -92,6 +95,7 @@
     "vite": "^4.1.1",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.11.1"
+    "webpack-dev-server": "^4.11.1",
+    "yarn-audit-fix": "^9.3.8"
   }
 }
