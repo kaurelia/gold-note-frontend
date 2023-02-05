@@ -2,6 +2,7 @@ import ReactRefreshWebpackPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import CopyWebpackPlugin from "copy-webpack-plugin";
 import { join } from "path";
 import { Configuration as ConfigurationBase } from "webpack";
+import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
 import { Configuration as ConfigurationDevServer } from "webpack-dev-server";
 
 type Configuration = ConfigurationDevServer & ConfigurationBase;
@@ -36,6 +37,11 @@ const config = (): Configuration => {
         ],
       }),
       new ReactRefreshWebpackPlugin(),
+      new BundleAnalyzerPlugin({
+        openAnalyzer: false,
+        analyzerMode: "static",
+        reportFilename: "../bundle-analyzes/analyzer-report.html",
+      }),
     ],
     mode: "development",
     devServer: {
