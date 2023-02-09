@@ -28,8 +28,8 @@ export const ImageWrapper = styled.div`
 export const CardWrapper = styled.div`
   display: flex;
   align-items: center;
-  width: 25%;
   justify-content: space-between;
+  width: 100%;
 `;
 
 export const HeaderText = styled.span`
@@ -47,6 +47,21 @@ export const TextWrapper = styled.div`
   flex-direction: column;
   margin-left: 10px;
   gap: 2px;
+`;
+
+export const ShrinkedWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+`;
+
+export const DropdownIconWrapper = styled(ImageWrapper)`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
 `;
 
 export const ValueWrapper = styled(TextWrapper)`

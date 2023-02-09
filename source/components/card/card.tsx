@@ -1,10 +1,14 @@
+import { mdiChevronDown } from "@mdi/js";
+import Icon from "@mdi/react";
 import { FunctionComponent } from "react";
 import {
   CardWrapper,
+  DropdownIconWrapper,
   HeaderText,
   Image,
   ImageTextWrapper,
   ImageWrapper,
+  ShrinkedWrapper,
   Subtitle,
   TextWrapper,
   ValueWrapper,
@@ -19,21 +23,26 @@ const Card: FunctionComponent<CardProperties> = ({
   shopDate,
 }: CardProperties): JSX.Element => {
   return (
-    <CardWrapper>
-      <ImageTextWrapper>
-        <ImageWrapper>
-          <Image src={imagePath} />
-        </ImageWrapper>
-        <TextWrapper>
-          <HeaderText>{name}</HeaderText>
-          <Subtitle>{group}</Subtitle>
-        </TextWrapper>
-      </ImageTextWrapper>
-      <ValueWrapper>
-        <HeaderText>{amount}</HeaderText>
-        <Subtitle>{shopDate}</Subtitle>
-      </ValueWrapper>
-    </CardWrapper>
+    <ShrinkedWrapper>
+      <CardWrapper>
+        <ImageTextWrapper>
+          <ImageWrapper>
+            <Image src={imagePath} />
+          </ImageWrapper>
+          <TextWrapper>
+            <HeaderText>{name}</HeaderText>
+            <Subtitle>{group}</Subtitle>
+          </TextWrapper>
+        </ImageTextWrapper>
+        <ValueWrapper>
+          <HeaderText>{amount}</HeaderText>
+          <Subtitle>{shopDate}</Subtitle>
+        </ValueWrapper>
+      </CardWrapper>
+      <DropdownIconWrapper>
+        <Icon path={mdiChevronDown} size={1} color="black" />
+      </DropdownIconWrapper>
+    </ShrinkedWrapper>
   );
 };
 
