@@ -121,18 +121,7 @@ exports[`Test app component Check if page component renders properly 1`] = `
 }
 
 .emotion-8 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   width: 25%;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
 }
 
 .emotion-9 {
@@ -144,21 +133,48 @@ exports[`Test app component Check if page component renders properly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .emotion-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.emotion-11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-12 {
   display: inline-block;
   background: rgba(213, 214, 216, 0.22);
   border-radius: 10px;
 }
 
-.emotion-11 {
+.emotion-13 {
   width: 50px;
   height: 50px;
   padding: 5px;
 }
 
-.emotion-12 {
+.emotion-14 {
   color: #010000;
   display: -webkit-box;
   display: -webkit-flex;
@@ -171,17 +187,17 @@ exports[`Test app component Check if page component renders properly 1`] = `
   gap: 2px;
 }
 
-.emotion-13 {
+.emotion-15 {
   font-size: 0.9rem;
   font-weight: 700;
 }
 
-.emotion-14 {
+.emotion-16 {
   font-size: 0.8rem;
   color: #b9b9b9;
 }
 
-.emotion-15 {
+.emotion-17 {
   color: #010000;
   display: -webkit-box;
   display: -webkit-flex;
@@ -196,6 +212,27 @@ exports[`Test app component Check if page component renders properly 1`] = `
   -webkit-box-align: flex-end;
   -ms-flex-align: flex-end;
   align-items: flex-end;
+}
+
+.emotion-20 {
+  display: inline-block;
+  background: rgba(213, 214, 216, 0.22);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
 }
 
 <div>
@@ -263,39 +300,61 @@ exports[`Test app component Check if page component renders properly 1`] = `
         <div
           class="emotion-10"
         >
-          <img
+          <div
             class="emotion-11"
-            src="/images/gold-bars.png"
-          />
+          >
+            <div
+              class="emotion-12"
+            >
+              <img
+                class="emotion-13"
+                src="/images/gold-bars.png"
+              />
+            </div>
+            <div
+              class="emotion-14"
+            >
+              <span
+                class="emotion-15"
+              >
+                My first asset
+              </span>
+              <span
+                class="emotion-16"
+              >
+                For rent
+              </span>
+            </div>
+          </div>
+          <div
+            class="emotion-17"
+          >
+            <span
+              class="emotion-15"
+            >
+              + $100
+            </span>
+            <span
+              class="emotion-16"
+            >
+              27.03.2023
+            </span>
+          </div>
         </div>
         <div
-          class="emotion-12"
+          class="emotion-20"
         >
-          <span
-            class="emotion-13"
+          <svg
+            role="presentation"
+            style="width: 1.5rem; height: 1.5rem;"
+            viewBox="0 0 24 24"
           >
-            My first asset
-          </span>
-          <span
-            class="emotion-14"
-          >
-            For rent
-          </span>
+            <path
+              d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
+              style="fill: black;"
+            />
+          </svg>
         </div>
-      </div>
-      <div
-        class="emotion-15"
-      >
-        <span
-          class="emotion-13"
-        >
-          + $100
-        </span>
-        <span
-          class="emotion-14"
-        >
-          27.03.2023
-        </span>
       </div>
     </div>
   </div>

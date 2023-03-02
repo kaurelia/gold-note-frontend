@@ -11,5 +11,23 @@ const config: Config.InitialOptions = {
   moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, {
     prefix: process.cwd(),
   }),
+  transform: {
+    ".(ts|tsx)$": [
+      "ts-jest",
+      {
+        babelConfig: {
+          presets: [
+            [
+              "@babel/env",
+              { bugfixes: true, useBuiltIns: "usage", corejs: "3" },
+            ],
+            "@babel/preset-typescript",
+            ["@babel/preset-react", { runtime: "automatic" }],
+          ],
+          plugins: ["@emotion"],
+        },
+      },
+    ],
+  },
 };
 export default config;
