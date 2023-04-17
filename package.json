@@ -43,7 +43,7 @@
     "@storybook/addon-controls": "^6.5.16",
     "@storybook/addon-docs": "^6.5.16",
     "@storybook/addon-essentials": "^6.5.16",
-    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-interactions": "^7.0.5",
     "@storybook/addon-links": "^6.5.16",
     "@storybook/builder-vite": "^0.4.0",
     "@storybook/react": "^6.5.16",
