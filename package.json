@@ -86,7 +86,7 @@
     "prettier-plugin-organize-imports": "^3.2.3",
     "react-refresh": "^0.14.0",
     "serve": "^14.2.0",
-    "snyk": "^1.1199.0",
+    "snyk": "^1.1200.0",
     "ts-jest": "^29.1.1",
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.2.0",
