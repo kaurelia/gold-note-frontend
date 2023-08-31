@@ -98,6 +98,6 @@
     "webpack-bundle-analyzer": "^4.9.1",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1",
-    "yarn-audit-fix": "^9.3.12"
+    "yarn-audit-fix": "^10.0.1"
   }
 }
