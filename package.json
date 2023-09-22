@@ -41,7 +41,7 @@
     "@microsoft/tsdoc": "^0.14.2",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.11",
     "@storybook/addon-controls": "^6.5.16",
-    "@storybook/addon-docs": "^6.5.16",
+    "@storybook/addon-docs": "^7.4.4",
     "@storybook/addon-essentials": "^6.5.16",
     "@storybook/addon-interactions": "^6.5.16",
     "@storybook/addon-links": "^6.5.16",
