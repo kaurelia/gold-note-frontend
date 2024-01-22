@@ -87,7 +87,7 @@
     "react-refresh": "^0.14.0",
     "serve": "^14.2.1",
     "snyk": "^1.1271.0",
-    "ts-jest": "^29.1.1",
+    "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "tslint": "^6.1.3",
