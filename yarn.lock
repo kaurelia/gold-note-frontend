@@ -3835,10 +3835,10 @@
   resolved "https://registry.yarnpkg.com/@types/unist/-/unist-2.0.6.tgz#250a7b16c3b91f672a24552ec64678eeb1d3a08d"
   integrity sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==
 
-"@types/webpack-bundle-analyzer@^4.6.4":
-  version "4.6.4"
-  resolved "https://registry.yarnpkg.com/@types/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.6.4.tgz#63b36db4fcd509ad4cd1080a87ff4345c39573c8"
-  integrity sha512-7q9Gh0A936YKbFWu/CzRJ8uINqrYYn2tqpO5EdRI6cxYPwcrtxbrf4v9UtktSQDZlW3OMARl7IDgu7D07lQvkw==
+"@types/webpack-bundle-analyzer@^4.7.0":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@types/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.7.0.tgz#fe199e724ce3d38705f6f1ba4d62429b7c360541"
+  integrity sha512-c5i2ThslSNSG8W891BRvOd/RoCjI2zwph8maD22b1adtSns20j+0azDDMCK06DiVrzTgnwiDl5Ntmu1YRJw8Sg==
   dependencies:
     "@types/node" "*"
     tapable "^2.2.0"
